@@ -12,7 +12,7 @@ ui <- fluidPage(
     # Sidebar
     sidebarLayout(
         sidebarPanel(
-            includeMarkdown("README.md"),
+            includeMarkdown("description.md"),
             selectInput(inputId = "script",
                         label   = "Script",
                         choices = availableScripts,
